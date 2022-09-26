@@ -1,0 +1,25 @@
+.app_container {
+  display: flex;
+  justify-content: center;
+  padding: 15px;
+  margin: 40px auto;
+  background-color: white;
+  border-radius: 1%;
+  width: 600px;
+  box-shadow: 0 5px 15px rgb(0 0 0 / 10%);
+}
+
+#description {
+  font-size: 2rem;
+  color: rgb(34, 3, 63);
+  font-weight: 500;
+  padding: 10px;
+}
+
+.underline {
+  height: 0.25rem;
+  width: 7rem;
+  background: var(--clr-primary-5);
+  margin-left: auto;
+  margin-right: auto;
+}
